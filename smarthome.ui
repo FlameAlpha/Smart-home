@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SmartHome</class>
+ <widget class="QWidget" name="SmartHome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="BackBround">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>272</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>480</width>
+     <height>272</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>480</width>
+     <height>272</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/PINlock/logo/SmartHome.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TimeDisplay">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>10</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;2017-2-8 18:53:12&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AboutButton">
+   <property name="geometry">
+    <rect>
+     <x>316</x>
+     <y>160</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/appliance/png/ICON/Flame_about.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LightButton">
+   <property name="geometry">
+    <rect>
+     <x>116</x>
+     <y>90</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/appliance/svg/ICON/SVG/APPLIANCES_lamp.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FanButton">
+   <property name="geometry">
+    <rect>
+     <x>216</x>
+     <y>90</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">selection-background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.245, fx:0.495708, fy:0.491, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+border-image: url(:/appliance/svg/ICON/SVG/APPLIANCES_fan.svg);
+alternate-background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.245, fx:0.495708, fy:0.491, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TVButton">
+   <property name="geometry">
+    <rect>
+     <x>316</x>
+     <y>90</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/appliance/svg/ICON/SVG/APPLIANCES_monitor.svg);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FridgeButton">
+   <property name="geometry">
+    <rect>
+     <x>116</x>
+     <y>160</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/appliance/svg/ICON/SVG/APPLIANCES_refrigerator.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="WHButton">
+   <property name="geometry">
+    <rect>
+     <x>216</x>
+     <y>160</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/appliance/svg/ICON/SVG/APPLIANCES_Kettle.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LockButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>230</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/power_lock/ICON/Power_Lock/lock.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SerialButton">
+   <property name="geometry">
+    <rect>
+     <x>409</x>
+     <y>80</y>
+     <width>71</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SerialTest</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MotorButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>120</y>
+     <width>71</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Motor</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="temp_display">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>220</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>220</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>温度:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>220</y>
+     <width>38</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>32</horstretch>
+     <verstretch>32</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string> 湿度:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hum_display">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>220</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>32</horstretch>
+     <verstretch>32</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>00</string>
+   </property>
+  </widget>
+  <zorder>SerialButton</zorder>
+  <zorder>MotorButton</zorder>
+  <zorder>BackBround</zorder>
+  <zorder>TimeDisplay</zorder>
+  <zorder>AboutButton</zorder>
+  <zorder>LightButton</zorder>
+  <zorder>FanButton</zorder>
+  <zorder>TVButton</zorder>
+  <zorder>FridgeButton</zorder>
+  <zorder>WHButton</zorder>
+  <zorder>LockButton</zorder>
+  <zorder>temp_display</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>hum_display</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

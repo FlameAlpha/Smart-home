@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserLock</class>
+ <widget class="QWidget" name="UserLock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>480</width>
+    <height>272</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>480</width>
+    <height>272</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="toolTip">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <widget class="QLabel" name="Head">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>50</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/PINlock/logo/CircleHead.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BackGround">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>272</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>480</width>
+     <height>272</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>480</width>
+     <height>272</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/PINlock/logo/BackGround mini.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OkButton">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>230</y>
+     <width>70</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TimeDisplay">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>0</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2017-2-8 18:36:47</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PowerButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>220</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/power_lock/ICON/Power_Lock/power.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="PIN">
+   <property name="geometry">
+    <rect>
+     <x>193</x>
+     <y>150</y>
+     <width>83</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>83</width>
+     <height>34</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="User">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>150</y>
+     <width>47</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#fdfdfd;&quot;&gt;Flame:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Warning">
+   <property name="geometry">
+    <rect>
+     <x>282</x>
+     <y>150</y>
+     <width>37</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>     </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_2">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_4">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_6">
+   <property name="geometry">
+    <rect>
+     <x>286</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_9">
+   <property name="geometry">
+    <rect>
+     <x>422</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_7">
+   <property name="geometry">
+    <rect>
+     <x>331</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_0">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_8">
+   <property name="geometry">
+    <rect>
+     <x>377</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_1">
+   <property name="geometry">
+    <rect>
+     <x>59</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_5">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>190</y>
+     <width>41</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+  <zorder>BackGround</zorder>
+  <zorder>Head</zorder>
+  <zorder>OkButton</zorder>
+  <zorder>TimeDisplay</zorder>
+  <zorder>PowerButton</zorder>
+  <zorder>PIN</zorder>
+  <zorder>User</zorder>
+  <zorder>Warning</zorder>
+  <zorder>Push_2</zorder>
+  <zorder>Push_3</zorder>
+  <zorder>Push_4</zorder>
+  <zorder>Push_6</zorder>
+  <zorder>Push_9</zorder>
+  <zorder>Push_7</zorder>
+  <zorder>Push_0</zorder>
+  <zorder>Push_8</zorder>
+  <zorder>Push_1</zorder>
+  <zorder>Push_5</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

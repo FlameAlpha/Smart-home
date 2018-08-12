@@ -1,0 +1,50 @@
+<RCC>
+    <qresource prefix="/PINlock/logo">
+        <file>微软用户头像.jpg</file>
+        <file>头像.png</file>
+        <file>Photoone.jpg</file>
+        <file>Phototwo.jpg</file>
+        <file>Photothree.jpg</file>
+        <file>Photofour.jpg</file>
+        <file>CircleHead.png</file>
+        <file>BackGround.png</file>
+        <file>BackGround mini.png</file>
+        <file>SmartHome.png</file>
+    </qresource>
+    <qresource prefix="/appliance/svg">
+        <file>ICON/SVG/APPLIANCES_audio.svg</file>
+        <file>ICON/SVG/APPLIANCES_clock.svg</file>
+        <file>ICON/SVG/APPLIANCES_double boiler.svg</file>
+        <file>ICON/SVG/APPLIANCES_earphones.svg</file>
+        <file>ICON/SVG/APPLIANCES_extract.svg</file>
+        <file>ICON/SVG/APPLIANCES_fan.svg</file>
+        <file>ICON/SVG/APPLIANCES_Grinder.svg</file>
+        <file>ICON/SVG/APPLIANCES_hair dryer.svg</file>
+        <file>ICON/SVG/APPLIANCES_iron.svg</file>
+        <file>ICON/SVG/APPLIANCES_Kettle.svg</file>
+        <file>ICON/SVG/APPLIANCES_lamp.svg</file>
+        <file>ICON/SVG/APPLIANCES_microwave.svg</file>
+        <file>ICON/SVG/APPLIANCES_mixer.svg</file>
+        <file>ICON/SVG/APPLIANCES_monitor.svg</file>
+        <file>ICON/SVG/APPLIANCES_Oven.svg</file>
+        <file>ICON/SVG/APPLIANCES_phone.svg</file>
+        <file>ICON/SVG/APPLIANCES_refrigerator.svg</file>
+        <file>ICON/SVG/APPLIANCES_Sewing machine.svg</file>
+        <file>ICON/SVG/APPLIANCES_vacuum cleaner.svg</file>
+        <file>ICON/SVG/APPLIANCES_Washing machine.svg</file>
+        <file>ICON/fridge.png</file>
+    </qresource>
+    <qresource prefix="/appliance/png">
+        <file>ICON/PNG/test.png</file>
+        <file>ICON/Flame_about.png</file>
+    </qresource>
+    <qresource prefix="/About">
+        <file>ICON/About/author.png</file>
+        <file>ICON/About/E-sec.png</file>
+        <file>ICON/About/author_no.png</file>
+    </qresource>
+    <qresource prefix="/power_lock">
+        <file>ICON/Power_Lock/power.png</file>
+        <file>ICON/Power_Lock/lock.png</file>
+    </qresource>
+</RCC>
